@@ -18,32 +18,32 @@
     combo_lgui {
       timeout-ms = <50>;
       key-positions = <15 16>;
-      bindings = <&kp LGUI>;
+      bindings = <&sk LGUI>;
     };
     combo_lalt {
       timeout-ms = <50>;
       key-positions = <14 16>;
-      bindings = <&kp LALT>;
+      bindings = <&sk LALT>;
     };
     combo_lctrl {
       timeout-ms = <50>;
       key-positions = <13 16>;
-      bindings = <&kp LCTRL>;
+      bindings = <&sk LCTRL>;
     };
     combo_rgui {
       timeout-ms = <50>;
       key-positions = <19 20>;
-      bindings = <&kp RGUI>;
+      bindings = <&sk RGUI>;
     };
     combo_ralt {
       timeout-ms = <50>;
       key-positions = <19 21>;
-      bindings = <&kp RALT>;
+      bindings = <&sk RALT>;
     };
     combo_rctrl {
       timeout-ms = <50>;
       key-positions = <19 22>;
-      bindings = <&kp RCTRL>;
+      bindings = <&sk RCTRL>;
     };
   };
 
