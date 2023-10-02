@@ -89,7 +89,7 @@
     raise_layer {
       bindings = <
 &trans &trans &trans &trans &trans     &trans         &trans   &trans   &trans    &trans    &trans    &bootloader
-&trans &trans &trans &trans &kp LS(LC(LA(F)))) &trans         &kp BSPC &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp DEL
+&trans &trans &trans &trans &kp LS(F) &trans         &kp BSPC &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp DEL
 &trans &trans &trans &trans &trans     &trans         &trans   &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans
                      &trans &trans     &kp UNDER      &kp RET  &trans   &trans
       >;
