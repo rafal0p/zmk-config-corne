@@ -37,7 +37,7 @@
     };
     combo_ralt {
       key-positions = <19 21>;
-      bindings = <&sk RALT>;
+      bindings = <&sk LALT>;
       slow-release;
     };
     combo_rctrl {
