@@ -124,7 +124,7 @@
     };
     raise_layer {
       bindings = <
-&trans &kp LS(LC(LA(Q))) &kp LS(LC(LA(W))) &kp LS(LC(LA(E))) &kp LS(LC(LA(R))) &kp LS(LC(LA(T)))         &trans   &trans   &trans    &trans    &trans    &bootloader
+&trans &kp LS(LC(LA(Q))) &kp LS(LC(LA(W))) &kp LS(LC(LA(E))) &kp LS(LC(LA(R))) &kp LS(LC(LA(T)))         &trans   &kp BSPC &trans    &trans    &kp DEL   &bootloader
 &trans &kp LS(LC(LA(A))) &kp LS(LC(LA(S))) &kp LS(LC(LA(D))) &kp LS(LC(LA(F))) &kp LS(LC(LA(G)))         &kp BSPC &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp DEL
 &trans &kp LS(LC(LA(Z))) &kp LS(LC(LA(X))) &kp LS(LC(LA(C))) &kp LS(LC(LA(V))) &kp LS(LC(LA(B)))         &trans   &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans
                                            &trans            &trans            &kp UNDER                 &kp RET  &trans   &trans
@@ -133,8 +133,8 @@
     numpad_layer {
       bindings = <
 &bt BT_CLR   &bt BT_SEL 3 &kp F7 &kp F8 &kp F9 &kp F10    &kp ASTRK &kp N7 &kp N8 &kp N9 &kp PLUS   &trans
-&bt BT_SEL 0 &bt BT_SEL 4 &kp F4 &kp F5 &kp F6 &kp F11    &kp SLASH &kp N4 &kp N5 &kp N6 &kp MINUS  &trans
-&bt BT_SEL 1 &bt BT_SEL 5 &kp F1 &kp F2 &kp F3 &kp F12    &kp BSPC  &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
+&bt BT_SEL 0 &kp BSPC     &kp F4 &kp F5 &kp F6 &kp F11    &kp SLASH &kp N4 &kp N5 &kp N6 &kp MINUS  &trans
+&bt BT_SEL 1 &bt BT_SEL 4 &kp F1 &kp F2 &kp F3 &kp F12    &kp BSPC  &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
                                  &trans &trans &trans     &trans    &kp N0 &trans
       >;
     };
