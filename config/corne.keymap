@@ -15,6 +15,8 @@
 //          36 37 38     39 40 41
   combos {
     compatible = "zmk,combos";
+
+    // home row combos
     combo_lgui {
       key-positions = <15 16>;
       bindings = <&sk LGUI>;
@@ -45,6 +47,40 @@
       bindings = <&sk RCTRL>;
       slow-release;
     };
+
+    // fake outer columns
+    combo_esc {
+      key-positions = <1 2>;
+      bindings = <&kp ESC>;
+      slow-release;
+    };
+    combo_tab {
+      key-positions = <13 14>;
+      bindings = <&kp TAB>;
+      slow-release;
+    };
+    combo_grave {
+      key-positions = <25 26>;
+      bindings = <&kp GRAVE>;
+      slow-release;
+    };
+    combo_equal {
+      key-positions = <9 10>;
+      bindings = <&kp EQUAL>;
+      slow-release;
+    };
+    combo_sqt {
+      key-positions = <21 22>;
+      bindings = <&kp SQT>;
+      slow-release;
+    };
+    combo_bslh {
+      key-positions = <33 34>;
+      bindings = <&kp BSLH>;
+      slow-release;
+    };
+
+    // layers
     combo_r_lower {
       key-positions = <19 40>;
       bindings = <&sl 1>;
